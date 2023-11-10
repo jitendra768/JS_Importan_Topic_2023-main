@@ -23,24 +23,24 @@
 
 // // casse -2 if function outside of object then what to do
 
-const userDetails = {
-  name: "Amit Kumar",
-  Age: 28,
-  Designation: "Software Engineer",
-};
-const userDetails2 = {
-  name: "shubham Kumar",
-  Age: 30,
-  Designation: "BackEnd Engineer",
-};
+// const userDetails = {
+//   name: "Amit Kumar",
+//   Age: 28,
+//   Designation: "Software Engineer",
+// };
+// const userDetails2 = {
+//   name: "shubham Kumar",
+//   Age: 30,
+//   Designation: "BackEnd Engineer",
+// };
 
-let printDetails = function (state, country) {
-  console.log(this.name+" "+state+" "+country);
-};
+// let printDetails = function (state, country) {
+//   console.log(this.name+" "+state+" "+country);
+// };
 
-printDetails.call(userDetails,'Delhi', 'india');
+// printDetails.call(userDetails,'Delhi', 'india');
 
-printDetails.call(userDetails2, 'Noida', 'india');
+// printDetails.call(userDetails2, 'Noida', 'india');
 
 // apply methods
 
@@ -48,6 +48,6 @@ printDetails.call(userDetails2, 'Noida', 'india');
 
 // bind methods
 
-let newFun =printDetails.bind(userDetails2, 'Noida', 'india');
-newFun();
+// let newFun =printDetails.bind(userDetails2, 'Noida', 'india');
+// newFun();
 
