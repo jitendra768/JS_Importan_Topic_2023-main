@@ -51,3 +51,19 @@
 // let newFun =printDetails.bind(userDetails2, 'Noida', 'india');
 // newFun();
 
+
+
+// bind call apply
+
+const user = {
+  name: "CoderGyan",
+  printName() {
+    console.log(this.name);
+  },
+};
+
+const user2 = {
+  name: "johndoe",
+};
+const res = user.printName.bind(user2);
+res();
