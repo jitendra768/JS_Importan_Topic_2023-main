@@ -17,15 +17,20 @@
 
 // //Currying function
 
-// function num1(a){
-//     return function num2(b){
-//         return function num3(c){
-//             return a+b+c;
-//         };
-//     };
-// }
+function num1(a){
+    return function num2(b){
+        return function num3(c){
+            return a+b+c;
+        };
+    };
+}
 
-// console.log(num1(3)(4)(8));
+// let res = num1(4);
+// let res1 = res(2);
+// // let res2 = res1(5)
+// console.log(res1)
+
+console.log(num1(3)(4)(8));
 
 // // Normal function
 
@@ -47,9 +52,9 @@
 
 // console.log(volume(2)(4)(5));
 
-function sum(a){
-    var a = 30;
-    function c(){
+// function sum(a){
+//     var a = 30;
+//     function c(){
         
-    }
-}
+//     }
+// }
