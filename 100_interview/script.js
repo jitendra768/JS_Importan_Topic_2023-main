@@ -27,4 +27,31 @@
 
 // 5.
 
-console.log(typeof NaN);
+// console.log(typeof NaN);
+
+// 6.
+
+// let data = 10 - -10;
+// console.log(data);
+
+// 7.
+
+// const set = new Set([1, 1, 2, 3, 4]);
+// console.log(set);
+
+// 8.
+
+// let data = { name: "Amit" };
+// console.log(delete data.name);
+// console.log(data);
+
+// 9.
+// const data = { name: "AMit" };
+// console.log(delete data);
+// console.log(data);
+
+// 10.
+
+const data = ["peter", "Anil", "ic"];
+const [y] = data;
+console.log(y);
