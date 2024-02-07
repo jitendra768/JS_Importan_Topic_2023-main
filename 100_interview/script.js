@@ -52,6 +52,19 @@
 
 // 10.
 
-const data = ["peter", "Anil", "ic"];
-const [y] = data;
-console.log(y);
+// const data = ["peter", "Anil", "ic"];
+// const [y] = data;
+// console.log(y);
+
+// 11.
+
+// const data = ["peter", "Anil", "ic"];
+// const [,y] = data;
+// console.log(y);
+
+// 12.
+// without dot operator access the value
+
+const data = { name: "anil", age: 29, skill: "js" };
+const { name } = data;
+console.log(name);
