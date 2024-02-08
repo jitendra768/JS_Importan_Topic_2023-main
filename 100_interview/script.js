@@ -68,3 +68,6 @@
 const data = { name: "anil", age: 29, skill: "js" };
 const { name } = data;
 console.log(name);
+
+// 13.
+
